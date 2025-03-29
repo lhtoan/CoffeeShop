@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+button {
+    background-color: var(--special-color);
+    border-radius: 0.65rem;
+    width: 100px;
+    height: 40px;
+    margin-left: 0.65rem;
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+button a {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+/* color */
+:root{
+    --text-color: #fff;
+    --main-text-color: #603809;
+    --h1-text-color: #F29F05;
+    --background-color: #FFFEFC;
+    --special-color: #F29F05;
+    --background2-color: #1d2e1f;
+    --sale-color: #FE0000;
+}
+
+
+.header_customer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.add_product {
+    background-color: #D04848;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.table_list_customers table, .table_list_customers td, .table_list_customers th {
+    border: 1px solid;
+    padding: 5px;
+}
+  
+.customer table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table_list_customers table a {
+    color: black;
+}
+
+.customer tr:first-child{
+    background-color: #29ADB2; /* Tô màu cho hàng đầu tiên */
+    font-weight: 700;
+}
+
+/* Update form */
+
+.update_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form_update_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.update_form form {
+    background-color: #DFF5FF;
+    padding: 20px;
+    margin-top: 30px;
+    width: 90%;
+    
+    
+}
+.form_row input {
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.form_row {
+    display: flex;
+    margin: 20px;
+
+}
+
+.form_row label {
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btnupdate{
+    width: 150px;
+    height: 50px;
+    background-color: #D04848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.insert_form, .customer{
+    padding: 10px 20px 0px 160px;
+}
+
+.insert_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.form_insert_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.insert_form form {
+    background-color: #DFF5FF;
+    padding: 20px;
+    margin-top: 30px;
+    width: 90%;
+    
+    
+}
+.form_row input {
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+
+}
+
+.form_row {
+    display: flex;
+    margin: 20px;
+
+}
+
+.form_row label {
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btnadd{
+    width: 200px;
+    height: 50px;
+    background-color: #D04848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_back {
+    background-color: #D04848;
+    padding: 10px;
+    width: 120px;
+    display: flex;
+    justify-content: left;
+}
+
+.find_kh {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.find_kh form {
+    width: 70%;
+}
+
+.find_kh .input_kh {
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.btn_timkiem {
+    width: 15%;
+    height: 40px;
+    padding: 10px;
+    background-color: #D04848;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
